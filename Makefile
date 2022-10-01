@@ -1,6 +1,6 @@
-obj-m += miet.o
+obj-m += miet.o param.o
 
-# miet-obj := miet.o param.o
+# miet-obj := miet.o 
 
 KDIR = /lib/modules/$(shell uname -r)/build
 
