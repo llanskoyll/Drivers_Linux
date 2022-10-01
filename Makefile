@@ -1,4 +1,7 @@
 obj-m += miet.o
+
+# miet-obj := miet.o param.o
+
 KDIR = /lib/modules/$(shell uname -r)/build
 
 all:
